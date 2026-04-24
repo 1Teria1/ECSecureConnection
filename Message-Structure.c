@@ -1,8 +1,4 @@
-#include <stdio.h>
 #include <stdint.h>
-#include <openssl/ssl.h>
-#include <openssl/crypto.h>
-
 
 typedef struct Message_s {
     uint8_t *encrypted_text;
@@ -16,9 +12,3 @@ typedef struct Message_s {
     uint8_t *public_key;
     int public_key_len;
 } Message;
-
-int main(){
-
-    
-    return 0;
-}
